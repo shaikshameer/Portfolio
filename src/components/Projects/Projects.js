@@ -26,7 +26,7 @@ function Projects() {
                     </div>
                     <h3>Personal Portfolio</h3>
                     <div className='project__item__cta'>
-                        <a href='https://github.com/shaikshameer987/Portfolio' className='btn'>Github</a>
+                        <a href='https://github.com/shaikshameer987/Portfolio' target="new" className='btn'>Github</a>
                         <a href='https://shameer-portfolio.netlify.app/' className='btn btn-primary'>Live Demo</a>
                     </div>
                 </article>
@@ -36,7 +36,7 @@ function Projects() {
                     </div>
                     <h3>To Do App</h3>
                     <div className='project__item__cta'>
-                        <a href='https://github.com/shaikshameer987/ToDo-Application' className='btn'>Github</a>
+                        <a href='https://github.com/shaikshameer987/ToDo-Application' target="new" className='btn'>Github</a>
                         <a href='https://shameer-todoapp.netlify.app/' className='btn btn-primary'>Live Demo</a>
                     </div>
                 </article>
@@ -46,8 +46,8 @@ function Projects() {
                     </div>
                     <h3>Ecommerce Website</h3>
                     <div className='project__item__cta'>
-                        <a href='https://github.com' className='btn'>Github</a>
-                        <a href='https://github.com' className='btn btn-primary'>Live Demo</a>
+                        <a href='https://github.com' target="new" className='btn'>Github</a>
+                        <a href='https://github.com' target="new" className='btn btn-primary'>Live Demo</a>
                     </div>
                 </article>
             </div>
