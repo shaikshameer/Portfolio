@@ -56,7 +56,7 @@ function Skills() {
                     </div>
                 </div>
                 <div className='skills__backend'>
-                <h3>Exploring in Backend Development</h3>
+                <h3>Exploring</h3>
                     <div className='skills__content'>
                         <article className='skills__details'>
                             <BsFillPatchCheckFill className='skills__details__icon' />

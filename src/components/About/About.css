@@ -9,8 +9,7 @@
     width: 100%;
     border-radius: 2rem;
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
-    display: grid;
-    place-items: center;
+    margin: auto;
 }
 
 .about__me-image {
@@ -81,7 +80,7 @@
 
 @media screen and (max-width: 600px) {
     .about__me {
-        width: 65%;
+        width: 70%;
         margin: 0 auto 3rem;
     }
     .about__cards {
@@ -93,5 +92,11 @@
     }
     .about__content p {
         margin: 1.5rem 0;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .about__cards {
+        grid-template-columns: 1fr;
     }
 }

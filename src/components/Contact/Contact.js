@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Contact.css"
 import {HiOutlineMail} from "react-icons/hi"
+import {BsInstagram} from "react-icons/bs"
 import {BsWhatsapp} from "react-icons/bs"
 import { useRef } from 'react';
 import emailjs from "emailjs-com"
@@ -31,16 +32,16 @@ function Contact() {
                         <a href='mailto:shaikshameer987@gmail.com'>Send a Message</a>
                     </article>
                     <article className='contact__option'>
-                        <HiOutlineMail className='contact__option__icon'/>
-                        <h4>Messenger</h4>
-                        <h5>shaikshameer</h5>
-                        <a href='https://m.me/shaikshameer'>Send a Message</a>
+                        <BsInstagram className='contact__option__icon'/>
+                        <h4>Instagram</h4>
+                        <h5>shaik shameer basha</h5>
+                        <a href='https://www.instagram.com/shaik_shameer_basha/' target="new">Send a Message</a>
                     </article>
                     <article className='contact__option'>
                         <BsWhatsapp className='contact__option__icon'/>
                         <h4>Whatsapp</h4>
                         <h5>+917989094574</h5>
-                        <a href='https://api.whatsapp.com/send?phone+917989094574'>Send a Message</a>
+                        <a href=' https://wa.me/+917989094574' target="new">Send a Message</a>
                     </article>
                 </div>
                 <form ref={form} onSubmit={sendEmail}>
